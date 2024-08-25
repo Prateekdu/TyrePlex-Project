@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags for Character Set and Responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar with Dropdown</title>
@@ -18,18 +19,23 @@
 </head>
 
 <body>
-
+<!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom ">
         <div class="container">
+            <!-- Branding Section -->
             <a class="navbar-brand" href="#">
                 <h5>Ty<span id="s1">re</span><span id="s2">Plex</span></h5>
             </a>
+             <!-- Toggle Button for Mobile View -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Navbar Links Section -->
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
+                    <!-- Car Tyres Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="carTyresDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,6 +53,7 @@
                             <a class="dropdown-item" href="#">All Car Tyres</a>
                         </div>
                     </li>
+                    <!-- Bike Tyres Dropdown -->
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" id="carTyresDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,6 +70,7 @@
                             <a class="dropdown-item" href="#">All Bike Tyres</a>
                         </div>
                     </li>
+                     <!-- Other Navigation Items -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tyre Pressure</a>
                     </li>
@@ -106,6 +114,7 @@
                     </li>
 
                 </ul>
+                <!-- Login Button -->
                 <button class="animated-button-h"><i class="fas fa-user"></i>Login</button>
             </div>
 
@@ -113,12 +122,14 @@
 
         </div>
     </nav>
-    <!-- --------------hero----------- -->
+    
+    <!-- Hero Section -->
     <div class="container mt-4" id="a1">
         <div class="row">
             <!-- Content Section -->
             <div class="col-md-6 content">
                 <h4>SHREE HEMKUNT TYRES AND SERVICES</h4>
+                <!-- Rating and Location Information -->
                 <p><span class="badge bg-success">4.9</span><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
                         class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
                         style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
@@ -149,6 +160,7 @@
                 </div>
             </div>
         </div>
+          <!-- Review Cards Section -->
         <div class="row g-4" id="r1">
             <!-- Card 1 -->
             <div class="col-md-4">
@@ -191,7 +203,7 @@
             </div>
         </div>
     </div>
-    <!-- ================== -->
+   <!-- ----------Deal section----------- -->
     <div class="container">
         <h4>Deals in</h4>
         <div class="carousel-container" id="carocontainer">
@@ -252,7 +264,7 @@
         </div>
     </div>
 
-    <!-- -------------container2---------- -->
+    <!-- -------------services offered by this dealer---------- -->
     <div class="container" id="a2">
         <h4>Services offered by this dealer</h4>
         <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -283,7 +295,7 @@
 
 
 
-    <!-- -------------container3--------------- -->
+    <!-- -------------Tyres sold by this Dealer--------------- -->
     <div class="container" >
         <h4>Tyres sold by this Dealer</h4>
         <div class="filter-container mt-3">
@@ -342,7 +354,7 @@
                 </div>
             </div>
         </div>
-        <!-- ------------------------------------------------- -->
+        <!-- -----------------------------Tyre list-------------------- -->
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
             <!-- Card 1 -->
             <div class="col">
@@ -442,6 +454,7 @@
             </div>
 
         </div>
+     <!-- -----------another tyre list--------------- -->
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
             <!-- Card 1 -->
             <div class="col">
@@ -541,14 +554,13 @@
             </div>
 
         </div>
+        <!-- --------------view button ----------------- -->
         <div class="container">
             <button class="btn-view" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 View More
               </button>
               <div class="collapse" id="collapseExample">
-                <!-- <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                </div> -->
+              
                 <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
                     <!-- Card 1 -->
                     <div class="col">
@@ -750,7 +762,7 @@
         </div>
 
     </div>
-    <!-- --------------------------------------------------- -->
+    <!-- --------------------------bredcrumb------------------------- -->
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
